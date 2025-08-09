@@ -3,16 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mak_Student_Hub</title>
+  <title>Mak Student Hub</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<nav>
+<nav class="navbar">
   <div class="logo" onclick="goToNewPage()">
-    <img src="mak_image.jpeg" alt="PixSpace Logo" />
+    <img src="mak_image.jpeg" alt="Mak Student Hub Logo" />
+    <span>Mak Student Hub</span>
   </div>
 
+  <!-- Theme Toggle -->
   <div class="theme-switch-wrapper">
     <label class="theme-switch">
       <input type="checkbox" id="theme-toggle">
@@ -20,12 +22,14 @@
     </label>
   </div>
 
+  <!-- Hamburger Menu -->
   <div class="hamburger" id="hamburger">
     <span class="bar"></span>
     <span class="bar"></span>
     <span class="bar"></span>
   </div>
 
+  <!-- Navigation Links -->
   <div class="nav-links" id="navLinks">
     <a href="index.html">Home</a>
     <a href="about.html">About Us</a>
@@ -33,6 +37,7 @@
     <a href="sign.html">Sign In</a>
   </div>
 </nav>
+
 <section></section>
 
 <script src="script.js"></script>

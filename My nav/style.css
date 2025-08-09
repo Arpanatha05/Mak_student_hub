@@ -87,13 +87,13 @@ body.dark-mode {
 
 /* Change hamburger to X */
 .hamburger.active .bar:nth-child(1) {
-  transform: rotate(45deg) translate(5px, 5px);
+  transform: rotate(45deg) translate(9px, 7px);
 }
 .hamburger.active .bar:nth-child(2) {
   opacity: 0;
 }
 .hamburger.active .bar:nth-child(3) {
-  transform: rotate(-45deg) translate(5px, -5px);
+  transform: rotate(-45deg) translate(8px, -5px);
 }
 
 /* Theme Toggle Switch */
@@ -139,8 +139,9 @@ input:checked + .slider:before {
     background: var(--nav-bg);
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
+    right: 0;
+    width: 250px;
+    
     height: 100%;
     padding: 0;
     border-radius: 0;

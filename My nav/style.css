@@ -63,12 +63,15 @@ body.dark-mode {
 .nav-links a {
   text-decoration: none;
   color: var(--text-color);
-  font-weight: 500;
+  font-weight: 600;
   transition: color 0.3s;
 }
 .nav-links a:hover {
   color: #ffcc00;
 }
+
+
+
 
 /* Hamburger */
 .hamburger {
@@ -87,13 +90,13 @@ body.dark-mode {
 
 /* Change hamburger to X */
 .hamburger.active .bar:nth-child(1) {
-  transform: rotate(45deg) translate(9px, 7px);
+  transform: rotate(45deg) translate(9px, 7.5px);
 }
 .hamburger.active .bar:nth-child(2) {
   opacity: 0;
 }
 .hamburger.active .bar:nth-child(3) {
-  transform: rotate(-45deg) translate(8px, -5px);
+  transform: rotate(-45deg) translate(8px, -5.5px);
 }
 
 /* Theme Toggle Switch */

@@ -36,6 +36,12 @@ body.dark-mode {
   top: 0;
   z-index: 1000;
 }
+.ani{
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+}
 
 /* Logo */
 .logo {
